@@ -1,0 +1,29 @@
+/* ICONS */
+.icon {
+  filter: none;
+  cursor: pointer;
+  height: 32px; /* تصغير حجم الأيقونات */
+  padding: 0.5rem;
+  transition: all 300ms ease;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  filter: drop-shadow(0px 0px 5px #D0CDC3);
+}
+
+.icon1 {
+  filter: none;
+  height: 32px; /* تصغير حجم الأيقونات */
+  padding: 0.5rem;
+  transition: all 300ms ease;
+  border-radius: 50%;
+}
+
+#profile {
+  display: flex;
+  justify-content: space-between; /* لعرض المحتوى بشكل عرضي */
+  align-items: center;
+  gap: 2rem;
+  background-color: #d7ccc8;
+}

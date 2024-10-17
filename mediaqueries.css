@@ -1,0 +1,93 @@
+@media screen and (max-width: 1400px) {
+    #desk-nav {
+        display: none;
+    }
+    #ham-nav {
+        display: flex;
+    }
+    #profile .btn-container {
+        display: none;
+    }
+    .btn-container2 {
+        display: flex;
+    }
+    #profile {
+        display: flex;
+        flex-direction: row; /* تعديل لعرض المحتوى بشكل عرضي */
+        justify-content: space-between;
+        align-items: center;
+        height: 83vh;
+        margin-bottom: 6rem;
+        background-color: #f0f0f0;
+    }
+    .about-container {
+        flex-wrap: wrap;
+    }
+    #social-links img {
+        width: 32px; /* تقليل حجم أيقونات السوشيال ميديا */
+        height: 32px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contact, footer {
+        height: 40vh;
+        background-color: #4e342e;
+    }
+    #profile {
+        display: flex;
+        flex-direction: column; /* يبقى الترتيب عموديًا في الشاشات الصغيرة */
+        height: 83vh;
+        margin-bottom: 2rem;
+        background-color: #d7ccc8;
+    }
+    article {
+        font-size: 1rem;
+        color: #333333;
+    }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-container, .contact-info-upper-container, .btn-container {
+        flex-wrap: wrap;
+    }
+    .btn {
+        size: 2rem;
+        background-color: #795548;
+        color: white;
+    }
+    .contact-info-container {
+        margin: 0;
+    }
+    .contact-info-container p, .nav-links li a {
+        font-size: 1rem;
+        color: #ffffff;
+    }
+    .experience-sub-title {
+        font-size: 1.25rem;
+        color: #8d6e63;
+    }
+    .logo {
+        font-size: 1.5rem;
+        color: #d7ccc8;
+    }
+    .section__pic-container {
+        width: 33vh;
+        justify-content: center;
+        height: 30vh;
+    }
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+    .title {
+        font-size: 1.75rem;
+    }
+    .text-container {
+        text-align: justify;
+    }
+    #social-links img {
+        width: 24px; /* تقليل الحجم أكثر للشاشات الصغيرة */
+        height: 24px;
+    }
+}
